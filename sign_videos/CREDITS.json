@@ -1,0 +1,1240 @@
+{
+ "dataset": "PopSign ASL v1.0",
+ "citation": "Starner et al., \"PopSign ASL v1.0: An Isolated American Sign Language Dataset Collected via Smartphones\", NeurIPS 2023 Datasets and Benchmarks Track",
+ "publisher": "Georgia Institute of Technology and RIT/NTID",
+ "source": "https://signdata.cc.gatech.edu/view/datasets/popsign_v1_0/index.html",
+ "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "changes": "One clip per sign, trimmed from the dataset tar; the signer is cut out with Apple person segmentation, placed on a plain studio backdrop, and downscaled to 480p.",
+ "clips": [
+  {
+   "file": "after.mp4",
+   "gloss": "after",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "airplane.mp4",
+   "gloss": "airplane",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "all.mp4",
+   "gloss": "all",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "alligator.mp4",
+   "gloss": "alligator",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "animal.mp4",
+   "gloss": "animal",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "another.mp4",
+   "gloss": "another",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "any.mp4",
+   "gloss": "any",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "apple.mp4",
+   "gloss": "apple",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "arm.mp4",
+   "gloss": "arm",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "aunt.mp4",
+   "gloss": "aunt",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "awake.mp4",
+   "gloss": "awake",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "backyard.mp4",
+   "gloss": "backyard",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bad.mp4",
+   "gloss": "bad",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "balloon.mp4",
+   "gloss": "balloon",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bath.mp4",
+   "gloss": "bath",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "because.mp4",
+   "gloss": "because",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bed.mp4",
+   "gloss": "bed",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bedroom.mp4",
+   "gloss": "bedroom",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "before.mp4",
+   "gloss": "before",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "beside.mp4",
+   "gloss": "beside",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "better.mp4",
+   "gloss": "better",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bird.mp4",
+   "gloss": "bird",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "blow.mp4",
+   "gloss": "blow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "blue.mp4",
+   "gloss": "blue",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "boat.mp4",
+   "gloss": "boat",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "book.mp4",
+   "gloss": "book",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "boy.mp4",
+   "gloss": "boy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "brother.mp4",
+   "gloss": "brother",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "brown.mp4",
+   "gloss": "brown",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bug.mp4",
+   "gloss": "bug",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "bye.mp4",
+   "gloss": "bye",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "call.mp4",
+   "gloss": "callonphone",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "can.mp4",
+   "gloss": "can",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "car.mp4",
+   "gloss": "car",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "carrot.mp4",
+   "gloss": "carrot",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cat.mp4",
+   "gloss": "cat",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cereal.mp4",
+   "gloss": "cereal",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "chair.mp4",
+   "gloss": "chair",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cheek.mp4",
+   "gloss": "cheek",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "child.mp4",
+   "gloss": "child",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "chin.mp4",
+   "gloss": "chin",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "chocolate.mp4",
+   "gloss": "chocolate",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "clean.mp4",
+   "gloss": "clean",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "close.mp4",
+   "gloss": "close",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "closet.mp4",
+   "gloss": "closet",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cloud.mp4",
+   "gloss": "cloud",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "clown.mp4",
+   "gloss": "clown",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cow.mp4",
+   "gloss": "cow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cowboy.mp4",
+   "gloss": "cowboy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cry.mp4",
+   "gloss": "cry",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cut.mp4",
+   "gloss": "cut",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "cute.mp4",
+   "gloss": "cute",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "dad.mp4",
+   "gloss": "dad",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "dance.mp4",
+   "gloss": "dance",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "dirty.mp4",
+   "gloss": "dirty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "doll.mp4",
+   "gloss": "doll",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "donkey.mp4",
+   "gloss": "donkey",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "down.mp4",
+   "gloss": "down",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "drawer.mp4",
+   "gloss": "drawer",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "drink.mp4",
+   "gloss": "drink",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "drop.mp4",
+   "gloss": "drop",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "dry.mp4",
+   "gloss": "dry",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "dryer.mp4",
+   "gloss": "dryer",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "duck.mp4",
+   "gloss": "duck",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "ear.mp4",
+   "gloss": "ear",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "elephant.mp4",
+   "gloss": "elephant",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "empty.mp4",
+   "gloss": "empty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "every.mp4",
+   "gloss": "every",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "eye.mp4",
+   "gloss": "eye",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "face.mp4",
+   "gloss": "face",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "fall.mp4",
+   "gloss": "fall",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "farm.mp4",
+   "gloss": "farm",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "fast.mp4",
+   "gloss": "fast",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "feet.mp4",
+   "gloss": "feet",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "find.mp4",
+   "gloss": "find",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "fine.mp4",
+   "gloss": "fine",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "finger.mp4",
+   "gloss": "finger",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "finish.mp4",
+   "gloss": "finish",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "fireman.mp4",
+   "gloss": "fireman",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "first.mp4",
+   "gloss": "first",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "fish.mp4",
+   "gloss": "fish",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "flag.mp4",
+   "gloss": "flag",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "flower.mp4",
+   "gloss": "flower",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "food.mp4",
+   "gloss": "food",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "for.mp4",
+   "gloss": "for",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "french_fries.mp4",
+   "gloss": "frenchfries",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "frog.mp4",
+   "gloss": "frog",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "garbage.mp4",
+   "gloss": "garbage",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "gift.mp4",
+   "gloss": "gift",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "giraffe.mp4",
+   "gloss": "giraffe",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "girl.mp4",
+   "gloss": "girl",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "give.mp4",
+   "gloss": "give",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "glass.mp4",
+   "gloss": "glasswindow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "go.mp4",
+   "gloss": "go",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "goose.mp4",
+   "gloss": "goose",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "grandma.mp4",
+   "gloss": "grandma",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "grandpa.mp4",
+   "gloss": "grandpa",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "grass.mp4",
+   "gloss": "grass",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "green.mp4",
+   "gloss": "green",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "gum.mp4",
+   "gloss": "gum",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hair.mp4",
+   "gloss": "hair",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "happy.mp4",
+   "gloss": "happy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hat.mp4",
+   "gloss": "hat",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hate.mp4",
+   "gloss": "hate",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "have.mp4",
+   "gloss": "have",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "have_to.mp4",
+   "gloss": "haveto",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "he.mp4",
+   "gloss": "hesheit",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "head.mp4",
+   "gloss": "head",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hear.mp4",
+   "gloss": "hear",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "helicopter.mp4",
+   "gloss": "helicopter",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hello.mp4",
+   "gloss": "hello",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hen.mp4",
+   "gloss": "hen",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hide.mp4",
+   "gloss": "hide",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "high.mp4",
+   "gloss": "high",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "home.mp4",
+   "gloss": "home",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "horse.mp4",
+   "gloss": "horse",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hot.mp4",
+   "gloss": "hot",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "hungry.mp4",
+   "gloss": "hungry",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "ice_cream.mp4",
+   "gloss": "icecream",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "if.mp4",
+   "gloss": "if",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "into.mp4",
+   "gloss": "into",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "jacket.mp4",
+   "gloss": "jacket",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "jeans.mp4",
+   "gloss": "jeans",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "jump.mp4",
+   "gloss": "jump",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "kiss.mp4",
+   "gloss": "kiss",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "kitty.mp4",
+   "gloss": "kitty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "lamp.mp4",
+   "gloss": "lamp",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "later.mp4",
+   "gloss": "later",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "like.mp4",
+   "gloss": "like",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "lion.mp4",
+   "gloss": "lion",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "lips.mp4",
+   "gloss": "lips",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "listen.mp4",
+   "gloss": "listen",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "look.mp4",
+   "gloss": "look",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "loud.mp4",
+   "gloss": "loud",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "mad.mp4",
+   "gloss": "mad",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "make.mp4",
+   "gloss": "make",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "man.mp4",
+   "gloss": "man",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "many.mp4",
+   "gloss": "many",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "milk.mp4",
+   "gloss": "milk",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "mitten.mp4",
+   "gloss": "mitten",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "mom.mp4",
+   "gloss": "mom",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "moon.mp4",
+   "gloss": "moon",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "morning.mp4",
+   "gloss": "morning",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "mouse.mp4",
+   "gloss": "mouse",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "mouth.mp4",
+   "gloss": "mouth",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "my.mp4",
+   "gloss": "minemy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "nap.mp4",
+   "gloss": "nap",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "napkin.mp4",
+   "gloss": "napkin",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "night.mp4",
+   "gloss": "night",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "no.mp4",
+   "gloss": "no",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "noisy.mp4",
+   "gloss": "noisy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "nose.mp4",
+   "gloss": "nose",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "not.mp4",
+   "gloss": "not",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "now.mp4",
+   "gloss": "now",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "nuts.mp4",
+   "gloss": "nuts",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "old.mp4",
+   "gloss": "old",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "on.mp4",
+   "gloss": "on",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "open.mp4",
+   "gloss": "open",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "orange.mp4",
+   "gloss": "orange",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "outside.mp4",
+   "gloss": "outside",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "owie.mp4",
+   "gloss": "owie",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "owl.mp4",
+   "gloss": "owl",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pajamas.mp4",
+   "gloss": "pajamas",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pen.mp4",
+   "gloss": "pen",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pencil.mp4",
+   "gloss": "pencil",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "penny.mp4",
+   "gloss": "penny",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "person.mp4",
+   "gloss": "person",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pig.mp4",
+   "gloss": "pig",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pizza.mp4",
+   "gloss": "pizza",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "please.mp4",
+   "gloss": "please",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "police.mp4",
+   "gloss": "police",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pool.mp4",
+   "gloss": "pool",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "potty.mp4",
+   "gloss": "potty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pretend.mp4",
+   "gloss": "pretend",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "pretty.mp4",
+   "gloss": "pretty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "puppy.mp4",
+   "gloss": "puppy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "puzzle.mp4",
+   "gloss": "puzzle",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "quiet.mp4",
+   "gloss": "quiet",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "radio.mp4",
+   "gloss": "radio",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "rain.mp4",
+   "gloss": "rain",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "read.mp4",
+   "gloss": "read",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "red.mp4",
+   "gloss": "red",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "refrigerator.mp4",
+   "gloss": "refrigerator",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "ride.mp4",
+   "gloss": "ride",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "room.mp4",
+   "gloss": "room",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sad.mp4",
+   "gloss": "sad",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "same.mp4",
+   "gloss": "same",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "say.mp4",
+   "gloss": "say",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "scissors.mp4",
+   "gloss": "scissors",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "see.mp4",
+   "gloss": "see",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "shh.mp4",
+   "gloss": "shhh",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "shirt.mp4",
+   "gloss": "shirt",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "shoe.mp4",
+   "gloss": "shoe",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "shower.mp4",
+   "gloss": "shower",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sick.mp4",
+   "gloss": "sick",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sleep.mp4",
+   "gloss": "sleep",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sleepy.mp4",
+   "gloss": "sleepy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "smile.mp4",
+   "gloss": "smile",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "snack.mp4",
+   "gloss": "snack",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "snow.mp4",
+   "gloss": "snow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "stairs.mp4",
+   "gloss": "stairs",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "stay.mp4",
+   "gloss": "stay",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sticky.mp4",
+   "gloss": "sticky",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "store.mp4",
+   "gloss": "store",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "story.mp4",
+   "gloss": "story",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "stuck.mp4",
+   "gloss": "stuck",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "sun.mp4",
+   "gloss": "sun",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "table.mp4",
+   "gloss": "table",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "talk.mp4",
+   "gloss": "talk",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "taste.mp4",
+   "gloss": "taste",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "thank_you.mp4",
+   "gloss": "thankyou",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "that.mp4",
+   "gloss": "that",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "there.mp4",
+   "gloss": "there",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "think.mp4",
+   "gloss": "think",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "thirsty.mp4",
+   "gloss": "thirsty",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "tiger.mp4",
+   "gloss": "tiger",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "time.mp4",
+   "gloss": "time",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "tomorrow.mp4",
+   "gloss": "tomorrow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "tongue.mp4",
+   "gloss": "tongue",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "tooth.mp4",
+   "gloss": "tooth",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "toothbrush.mp4",
+   "gloss": "toothbrush",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "touch.mp4",
+   "gloss": "touch",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "toy.mp4",
+   "gloss": "toy",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "tree.mp4",
+   "gloss": "tree",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "uncle.mp4",
+   "gloss": "uncle",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "underwear.mp4",
+   "gloss": "underwear",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "up.mp4",
+   "gloss": "up",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "vacuum.mp4",
+   "gloss": "vacuum",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "wait.mp4",
+   "gloss": "wait",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "wake.mp4",
+   "gloss": "wake",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "water.mp4",
+   "gloss": "water",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "we.mp4",
+   "gloss": "weus",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "wet.mp4",
+   "gloss": "wet",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "where.mp4",
+   "gloss": "where",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "white.mp4",
+   "gloss": "white",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "who.mp4",
+   "gloss": "who",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "why.mp4",
+   "gloss": "why",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "will.mp4",
+   "gloss": "will",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "wolf.mp4",
+   "gloss": "wolf",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "yellow.mp4",
+   "gloss": "yellow",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "yes.mp4",
+   "gloss": "yes",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "yesterday.mp4",
+   "gloss": "yesterday",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "yourself.mp4",
+   "gloss": "yourself",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "yucky.mp4",
+   "gloss": "yucky",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "zebra.mp4",
+   "gloss": "zebra",
+   "signer": "4a.8902"
+  },
+  {
+   "file": "zipper.mp4",
+   "gloss": "zipper",
+   "signer": "4a.8902"
+  }
+ ]
+}

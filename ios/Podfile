@@ -1,0 +1,9 @@
+platform :ios, '17.0'
+
+target 'SignAid' do
+  use_frameworks!
+  # Same hand tracker the Pi runs. Using Apple's Vision instead meant different
+  # landmarks (no depth), a different coordinate origin and different handedness
+  # conventions -- every recognition bug on the phone came from that mismatch.
+  pod 'MediaPipeTasksVision'
+end

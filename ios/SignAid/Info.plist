@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>en</string>
+    <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+    <key>CFBundleDisplayName</key><string>SignAid</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>LSRequiresIPhoneOS</key><true/>
+    <key>UILaunchScreen</key><dict/>
+    <!-- The Mac serves plain HTTP on the LAN; iOS blocks that without this. -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key><true/>
+        <key>NSAllowsLocalNetworking</key><true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>SignAid uses the camera to read your fingerspelling. Video stays on your phone.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SignAid listens when you tap Speak, so the hearing person can talk and have it signed.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>SignAid turns what the hearing person says into text, so it can be shown in sign language.</string>
+    <!-- The glasses announce themselves over Bonjour as _signaid._tcp. -->
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_signaid._tcp</string>
+        <string>_http._tcp</string>
+    </array>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Only used by the optional SignAid Glasses prototype, to reach your own computer.</string>
+    <!-- Portrait only. The camera pipeline assumes a portrait phone
+         (HandFeatures.toModelFrame); in landscape every hand reads a quarter-turn
+         off and U, R and K collapse into H. -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+</dict>
+</plist>

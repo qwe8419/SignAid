@@ -1,0 +1,661 @@
+{
+ "voice": "af_heart",
+ "model": "Kokoro-82M v1.0 (Apache-2.0)",
+ "clips": {
+  "welcome": [
+   "welcome_0.m4a",
+   "welcome_1.m4a"
+  ],
+  "audio_on": [
+   "audio_on_0.m4a"
+  ],
+  "first_A": [
+   "first_A_0.m4a",
+   "first_A_1.m4a"
+  ],
+  "first_B": [
+   "first_B_0.m4a",
+   "first_B_1.m4a"
+  ],
+  "first_C": [
+   "first_C_0.m4a",
+   "first_C_1.m4a"
+  ],
+  "first_D": [
+   "first_D_0.m4a",
+   "first_D_1.m4a"
+  ],
+  "first_E": [
+   "first_E_0.m4a",
+   "first_E_1.m4a"
+  ],
+  "first_F": [
+   "first_F_0.m4a",
+   "first_F_1.m4a"
+  ],
+  "first_G": [
+   "first_G_0.m4a",
+   "first_G_1.m4a"
+  ],
+  "first_H": [
+   "first_H_0.m4a",
+   "first_H_1.m4a"
+  ],
+  "first_I": [
+   "first_I_0.m4a",
+   "first_I_1.m4a"
+  ],
+  "first_K": [
+   "first_K_0.m4a",
+   "first_K_1.m4a"
+  ],
+  "first_L": [
+   "first_L_0.m4a",
+   "first_L_1.m4a"
+  ],
+  "first_M": [
+   "first_M_0.m4a",
+   "first_M_1.m4a"
+  ],
+  "first_N": [
+   "first_N_0.m4a",
+   "first_N_1.m4a"
+  ],
+  "first_O": [
+   "first_O_0.m4a",
+   "first_O_1.m4a"
+  ],
+  "first_P": [
+   "first_P_0.m4a",
+   "first_P_1.m4a"
+  ],
+  "first_Q": [
+   "first_Q_0.m4a",
+   "first_Q_1.m4a"
+  ],
+  "first_R": [
+   "first_R_0.m4a",
+   "first_R_1.m4a"
+  ],
+  "first_S": [
+   "first_S_0.m4a",
+   "first_S_1.m4a"
+  ],
+  "first_T": [
+   "first_T_0.m4a",
+   "first_T_1.m4a"
+  ],
+  "first_U": [
+   "first_U_0.m4a",
+   "first_U_1.m4a"
+  ],
+  "first_V": [
+   "first_V_0.m4a",
+   "first_V_1.m4a"
+  ],
+  "first_W": [
+   "first_W_0.m4a",
+   "first_W_1.m4a"
+  ],
+  "first_X": [
+   "first_X_0.m4a",
+   "first_X_1.m4a"
+  ],
+  "first_Y": [
+   "first_Y_0.m4a",
+   "first_Y_1.m4a"
+  ],
+  "next_A": [
+   "next_A_0.m4a",
+   "next_A_1.m4a",
+   "next_A_2.m4a",
+   "next_A_3.m4a"
+  ],
+  "next_B": [
+   "next_B_0.m4a",
+   "next_B_1.m4a",
+   "next_B_2.m4a",
+   "next_B_3.m4a"
+  ],
+  "next_C": [
+   "next_C_0.m4a",
+   "next_C_1.m4a",
+   "next_C_2.m4a",
+   "next_C_3.m4a"
+  ],
+  "next_D": [
+   "next_D_0.m4a",
+   "next_D_1.m4a",
+   "next_D_2.m4a",
+   "next_D_3.m4a"
+  ],
+  "next_E": [
+   "next_E_0.m4a",
+   "next_E_1.m4a",
+   "next_E_2.m4a",
+   "next_E_3.m4a"
+  ],
+  "next_F": [
+   "next_F_0.m4a",
+   "next_F_1.m4a",
+   "next_F_2.m4a",
+   "next_F_3.m4a"
+  ],
+  "next_G": [
+   "next_G_0.m4a",
+   "next_G_1.m4a",
+   "next_G_2.m4a",
+   "next_G_3.m4a"
+  ],
+  "next_H": [
+   "next_H_0.m4a",
+   "next_H_1.m4a",
+   "next_H_2.m4a",
+   "next_H_3.m4a"
+  ],
+  "next_I": [
+   "next_I_0.m4a",
+   "next_I_1.m4a",
+   "next_I_2.m4a",
+   "next_I_3.m4a"
+  ],
+  "next_K": [
+   "next_K_0.m4a",
+   "next_K_1.m4a",
+   "next_K_2.m4a",
+   "next_K_3.m4a"
+  ],
+  "next_L": [
+   "next_L_0.m4a",
+   "next_L_1.m4a",
+   "next_L_2.m4a",
+   "next_L_3.m4a"
+  ],
+  "next_M": [
+   "next_M_0.m4a",
+   "next_M_1.m4a",
+   "next_M_2.m4a",
+   "next_M_3.m4a"
+  ],
+  "next_N": [
+   "next_N_0.m4a",
+   "next_N_1.m4a",
+   "next_N_2.m4a",
+   "next_N_3.m4a"
+  ],
+  "next_O": [
+   "next_O_0.m4a",
+   "next_O_1.m4a",
+   "next_O_2.m4a",
+   "next_O_3.m4a"
+  ],
+  "next_P": [
+   "next_P_0.m4a",
+   "next_P_1.m4a",
+   "next_P_2.m4a",
+   "next_P_3.m4a"
+  ],
+  "next_Q": [
+   "next_Q_0.m4a",
+   "next_Q_1.m4a",
+   "next_Q_2.m4a",
+   "next_Q_3.m4a"
+  ],
+  "next_R": [
+   "next_R_0.m4a",
+   "next_R_1.m4a",
+   "next_R_2.m4a",
+   "next_R_3.m4a"
+  ],
+  "next_S": [
+   "next_S_0.m4a",
+   "next_S_1.m4a",
+   "next_S_2.m4a",
+   "next_S_3.m4a"
+  ],
+  "next_T": [
+   "next_T_0.m4a",
+   "next_T_1.m4a",
+   "next_T_2.m4a",
+   "next_T_3.m4a"
+  ],
+  "next_U": [
+   "next_U_0.m4a",
+   "next_U_1.m4a",
+   "next_U_2.m4a",
+   "next_U_3.m4a"
+  ],
+  "next_V": [
+   "next_V_0.m4a",
+   "next_V_1.m4a",
+   "next_V_2.m4a",
+   "next_V_3.m4a"
+  ],
+  "next_W": [
+   "next_W_0.m4a",
+   "next_W_1.m4a",
+   "next_W_2.m4a",
+   "next_W_3.m4a"
+  ],
+  "next_X": [
+   "next_X_0.m4a",
+   "next_X_1.m4a",
+   "next_X_2.m4a",
+   "next_X_3.m4a"
+  ],
+  "next_Y": [
+   "next_Y_0.m4a",
+   "next_Y_1.m4a",
+   "next_Y_2.m4a",
+   "next_Y_3.m4a"
+  ],
+  "praise": [
+   "praise_0.m4a",
+   "praise_1.m4a",
+   "praise_2.m4a",
+   "praise_3.m4a",
+   "praise_4.m4a",
+   "praise_5.m4a",
+   "praise_6.m4a",
+   "praise_7.m4a",
+   "praise_8.m4a",
+   "praise_9.m4a"
+  ],
+  "encourage": [
+   "encourage_0.m4a",
+   "encourage_1.m4a",
+   "encourage_2.m4a",
+   "encourage_3.m4a",
+   "encourage_4.m4a"
+  ],
+  "looks_like_A": [
+   "looks_like_A_0.m4a"
+  ],
+  "looks_like_B": [
+   "looks_like_B_0.m4a"
+  ],
+  "looks_like_C": [
+   "looks_like_C_0.m4a"
+  ],
+  "looks_like_D": [
+   "looks_like_D_0.m4a"
+  ],
+  "looks_like_E": [
+   "looks_like_E_0.m4a"
+  ],
+  "looks_like_F": [
+   "looks_like_F_0.m4a"
+  ],
+  "looks_like_G": [
+   "looks_like_G_0.m4a"
+  ],
+  "looks_like_H": [
+   "looks_like_H_0.m4a"
+  ],
+  "looks_like_I": [
+   "looks_like_I_0.m4a"
+  ],
+  "looks_like_J": [
+   "looks_like_J_0.m4a"
+  ],
+  "looks_like_K": [
+   "looks_like_K_0.m4a"
+  ],
+  "looks_like_L": [
+   "looks_like_L_0.m4a"
+  ],
+  "looks_like_M": [
+   "looks_like_M_0.m4a"
+  ],
+  "looks_like_N": [
+   "looks_like_N_0.m4a"
+  ],
+  "looks_like_O": [
+   "looks_like_O_0.m4a"
+  ],
+  "looks_like_P": [
+   "looks_like_P_0.m4a"
+  ],
+  "looks_like_Q": [
+   "looks_like_Q_0.m4a"
+  ],
+  "looks_like_R": [
+   "looks_like_R_0.m4a"
+  ],
+  "looks_like_S": [
+   "looks_like_S_0.m4a"
+  ],
+  "looks_like_T": [
+   "looks_like_T_0.m4a"
+  ],
+  "looks_like_U": [
+   "looks_like_U_0.m4a"
+  ],
+  "looks_like_V": [
+   "looks_like_V_0.m4a"
+  ],
+  "looks_like_W": [
+   "looks_like_W_0.m4a"
+  ],
+  "looks_like_X": [
+   "looks_like_X_0.m4a"
+  ],
+  "looks_like_Y": [
+   "looks_like_Y_0.m4a"
+  ],
+  "looks_like_Z": [
+   "looks_like_Z_0.m4a"
+  ],
+  "try_A": [
+   "try_A_0.m4a",
+   "try_A_1.m4a"
+  ],
+  "try_B": [
+   "try_B_0.m4a",
+   "try_B_1.m4a"
+  ],
+  "try_C": [
+   "try_C_0.m4a",
+   "try_C_1.m4a"
+  ],
+  "try_D": [
+   "try_D_0.m4a",
+   "try_D_1.m4a"
+  ],
+  "try_E": [
+   "try_E_0.m4a",
+   "try_E_1.m4a"
+  ],
+  "try_F": [
+   "try_F_0.m4a",
+   "try_F_1.m4a"
+  ],
+  "try_G": [
+   "try_G_0.m4a",
+   "try_G_1.m4a"
+  ],
+  "try_H": [
+   "try_H_0.m4a",
+   "try_H_1.m4a"
+  ],
+  "try_I": [
+   "try_I_0.m4a",
+   "try_I_1.m4a"
+  ],
+  "try_K": [
+   "try_K_0.m4a",
+   "try_K_1.m4a"
+  ],
+  "try_L": [
+   "try_L_0.m4a",
+   "try_L_1.m4a"
+  ],
+  "try_M": [
+   "try_M_0.m4a",
+   "try_M_1.m4a"
+  ],
+  "try_N": [
+   "try_N_0.m4a",
+   "try_N_1.m4a"
+  ],
+  "try_O": [
+   "try_O_0.m4a",
+   "try_O_1.m4a"
+  ],
+  "try_P": [
+   "try_P_0.m4a",
+   "try_P_1.m4a"
+  ],
+  "try_Q": [
+   "try_Q_0.m4a",
+   "try_Q_1.m4a"
+  ],
+  "try_R": [
+   "try_R_0.m4a",
+   "try_R_1.m4a"
+  ],
+  "try_S": [
+   "try_S_0.m4a",
+   "try_S_1.m4a"
+  ],
+  "try_T": [
+   "try_T_0.m4a",
+   "try_T_1.m4a"
+  ],
+  "try_U": [
+   "try_U_0.m4a",
+   "try_U_1.m4a"
+  ],
+  "try_V": [
+   "try_V_0.m4a",
+   "try_V_1.m4a"
+  ],
+  "try_W": [
+   "try_W_0.m4a",
+   "try_W_1.m4a"
+  ],
+  "try_X": [
+   "try_X_0.m4a",
+   "try_X_1.m4a"
+  ],
+  "try_Y": [
+   "try_Y_0.m4a",
+   "try_Y_1.m4a"
+  ],
+  "no_hand": [
+   "no_hand_0.m4a",
+   "no_hand_1.m4a"
+  ],
+  "skip": [
+   "skip_0.m4a",
+   "skip_1.m4a"
+  ],
+  "streak_5": [
+   "streak_5_0.m4a"
+  ],
+  "streak_10": [
+   "streak_10_0.m4a"
+  ],
+  "streak_20": [
+   "streak_20_0.m4a"
+  ],
+  "tip_curl_thumb_straighten": [
+   "tip_curl_thumb_straighten_0.m4a"
+  ],
+  "tip_curl_thumb_fold": [
+   "tip_curl_thumb_fold_0.m4a"
+  ],
+  "tip_curl_index_straighten": [
+   "tip_curl_index_straighten_0.m4a"
+  ],
+  "tip_curl_index_fold": [
+   "tip_curl_index_fold_0.m4a"
+  ],
+  "tip_curl_middle_straighten": [
+   "tip_curl_middle_straighten_0.m4a"
+  ],
+  "tip_curl_middle_fold": [
+   "tip_curl_middle_fold_0.m4a"
+  ],
+  "tip_curl_ring_straighten": [
+   "tip_curl_ring_straighten_0.m4a"
+  ],
+  "tip_curl_ring_fold": [
+   "tip_curl_ring_fold_0.m4a"
+  ],
+  "tip_curl_pinky_straighten": [
+   "tip_curl_pinky_straighten_0.m4a"
+  ],
+  "tip_curl_pinky_fold": [
+   "tip_curl_pinky_fold_0.m4a"
+  ],
+  "tip_point_up": [
+   "tip_point_up_0.m4a"
+  ],
+  "tip_point_down": [
+   "tip_point_down_0.m4a"
+  ],
+  "tip_point_side": [
+   "tip_point_side_0.m4a"
+  ],
+  "tip_point_forward": [
+   "tip_point_forward_0.m4a"
+  ],
+  "tip_spread_together": [
+   "tip_spread_together_0.m4a"
+  ],
+  "tip_spread_apart": [
+   "tip_spread_apart_0.m4a"
+  ],
+  "tip_cross_do": [
+   "tip_cross_do_0.m4a"
+  ],
+  "tip_cross_undo": [
+   "tip_cross_undo_0.m4a"
+  ],
+  "tip_thumbindex_touch": [
+   "tip_thumbindex_touch_0.m4a"
+  ],
+  "tip_thumbindex_away": [
+   "tip_thumbindex_away_0.m4a"
+  ],
+  "tip_thumbmiddle_touch": [
+   "tip_thumbmiddle_touch_0.m4a"
+  ],
+  "tip_thumbmiddle_away": [
+   "tip_thumbmiddle_away_0.m4a"
+  ],
+  "tip_thumbout_in": [
+   "tip_thumbout_in_0.m4a"
+  ],
+  "tip_thumbout_out": [
+   "tip_thumbout_out_0.m4a"
+  ],
+  "how_A": [
+   "how_A_0.m4a"
+  ],
+  "how_B": [
+   "how_B_0.m4a"
+  ],
+  "how_C": [
+   "how_C_0.m4a"
+  ],
+  "how_D": [
+   "how_D_0.m4a"
+  ],
+  "how_E": [
+   "how_E_0.m4a"
+  ],
+  "how_F": [
+   "how_F_0.m4a"
+  ],
+  "how_G": [
+   "how_G_0.m4a"
+  ],
+  "how_H": [
+   "how_H_0.m4a"
+  ],
+  "how_I": [
+   "how_I_0.m4a"
+  ],
+  "how_K": [
+   "how_K_0.m4a"
+  ],
+  "how_L": [
+   "how_L_0.m4a"
+  ],
+  "how_M": [
+   "how_M_0.m4a"
+  ],
+  "how_N": [
+   "how_N_0.m4a"
+  ],
+  "how_O": [
+   "how_O_0.m4a"
+  ],
+  "how_P": [
+   "how_P_0.m4a"
+  ],
+  "how_Q": [
+   "how_Q_0.m4a"
+  ],
+  "how_R": [
+   "how_R_0.m4a"
+  ],
+  "how_S": [
+   "how_S_0.m4a"
+  ],
+  "how_T": [
+   "how_T_0.m4a"
+  ],
+  "how_U": [
+   "how_U_0.m4a"
+  ],
+  "how_V": [
+   "how_V_0.m4a"
+  ],
+  "how_W": [
+   "how_W_0.m4a"
+  ],
+  "how_X": [
+   "how_X_0.m4a"
+  ],
+  "how_Y": [
+   "how_Y_0.m4a"
+  ],
+  "help_intro": [
+   "help_intro_0.m4a",
+   "help_intro_1.m4a"
+  ]
+ },
+ "texts": {
+  "tip_curl_thumb_straighten": "Straighten your thumb out.",
+  "tip_curl_thumb_fold": "Fold your thumb across your palm.",
+  "tip_curl_index_straighten": "Straighten your index finger.",
+  "tip_curl_index_fold": "Fold your index finger down.",
+  "tip_curl_middle_straighten": "Straighten your middle finger.",
+  "tip_curl_middle_fold": "Fold your middle finger down.",
+  "tip_curl_ring_straighten": "Straighten your ring finger.",
+  "tip_curl_ring_fold": "Fold your ring finger down.",
+  "tip_curl_pinky_straighten": "Straighten your pinky.",
+  "tip_curl_pinky_fold": "Fold your pinky down.",
+  "tip_point_up": "Point your fingers straight up.",
+  "tip_point_down": "Point your hand down.",
+  "tip_point_side": "Turn your hand sideways, with your fingers pointing across.",
+  "tip_point_forward": "Point your index finger forward, not straight down.",
+  "tip_spread_together": "Press your index and middle fingers together.",
+  "tip_spread_apart": "Spread your index and middle fingers apart.",
+  "tip_cross_do": "Cross your middle finger over your index finger.",
+  "tip_cross_undo": "Uncross your fingers.",
+  "tip_thumbindex_touch": "Touch your thumb to your index finger.",
+  "tip_thumbindex_away": "Move your thumb away from your index finger.",
+  "tip_thumbmiddle_touch": "Rest your thumb against your middle finger.",
+  "tip_thumbmiddle_away": "Move your thumb off your middle finger.",
+  "tip_thumbout_in": "Bring your thumb in against your hand.",
+  "tip_thumbout_out": "Stick your thumb out to the side.",
+  "how_A": "Here's how to sign A. Make a fist, with your thumb resting against the side of your index finger.",
+  "how_B": "Here's how to sign B. Hold your four fingers straight up and together, with your thumb folded across your palm.",
+  "how_C": "Here's how to sign C. Curve your fingers and thumb into a C, like you're holding a cup.",
+  "how_D": "Here's how to sign D. Point your index finger up, and curve your other fingers to touch your thumb.",
+  "how_E": "Here's how to sign E. Bend all four fingertips down to rest on your thumb, tucked across your palm.",
+  "how_F": "Here's how to sign F. Touch your index finger to your thumb in a circle, and hold your other three fingers up.",
+  "how_G": "Here's how to sign G. Point your index finger sideways, with your thumb just above it. Fold the other fingers.",
+  "how_H": "Here's how to sign H. Point your index and middle fingers sideways, side by side.",
+  "how_I": "Here's how to sign I. Make a fist and raise your pinky straight up.",
+  "how_K": "Here's how to sign K. Raise your index and middle fingers in a V, with your thumb resting between them.",
+  "how_L": "Here's how to sign L. Point your index finger up and your thumb out to the side, making an L.",
+  "how_M": "Here's how to sign M. Make a fist with your thumb tucked under your first three fingers.",
+  "how_N": "Here's how to sign N. Make a fist with your thumb tucked under your first two fingers.",
+  "how_O": "Here's how to sign O. Curve all your fingertips to touch your thumb, making an O.",
+  "how_P": "Here's how to sign P. Make a K, then turn it so your hand points down.",
+  "how_Q": "Here's how to sign Q. Make a G, then turn it so your finger and thumb point down.",
+  "how_R": "Here's how to sign R. Cross your middle finger over your index finger, both pointing up.",
+  "how_S": "Here's how to sign S. Make a fist with your thumb across the front of your fingers.",
+  "how_T": "Here's how to sign T. Make a fist with your thumb tucked between your index and middle fingers.",
+  "how_U": "Here's how to sign U. Hold your index and middle fingers straight up, pressed together.",
+  "how_V": "Here's how to sign V. Hold your index and middle fingers up and apart, in a V.",
+  "how_W": "Here's how to sign W. Hold your index, middle and ring fingers up and spread, with your thumb holding your pinky.",
+  "how_X": "Here's how to sign X. Raise your index finger and bend it into a hook. Fold the other fingers.",
+  "how_Y": "Here's how to sign Y. Stick out your thumb and your pinky, and fold the other three fingers."
+ }
+}

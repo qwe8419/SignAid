@@ -1,0 +1,7 @@
+ios/Pods/
+xcuserdata/
+*.xcuserstate
+__pycache__/
+glasses/**/secrets.h
+.DS_Store
+sign_videos/*.mp4

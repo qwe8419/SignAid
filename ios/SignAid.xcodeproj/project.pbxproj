@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D984CA493AA4E53F456C5B83 /* letter_coach.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BD13E248BAFA108E537624 /* letter_coach.json */; };
+		1DDA587E33414C0AF650369C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03369533592A0829F31F79C1 /* AboutView.swift */; };
+		2C52505CC6F0D3801FB7C45C /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118FD9F07068E735D240CF5 /* IntroView.swift */; };
+		FE89719A046337F47C1FFA43 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28F1612A95700CFA3012D /* PracticeView.swift */; };
+		038F2792B461574FABB5798B /* HandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0379AE961C56E38D7CBB78 /* HandFeatures.swift */; };
+		27C00AAC942ECDEEAE3D0518 /* Pods_SignAid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86AFE04C65E2394E9A33CBB /* Pods_SignAid.framework */; };
+		43ECCD6AFDF259DDB2BF8BA1 /* AvatarPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24054E4E6C915F03A70CD1E7 /* AvatarPlayer.swift */; };
+		4B39ABDC4A0D5FBA9D6ECCC3 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A795B6F38D506298369A84 /* TranslateView.swift */; };
+		4B8AE2A546E257A197DD1A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB821B7A54554F9D2FD002 /* ContentView.swift */; };
+		5F8D13DD2DD751E282ACCD53 /* letter_net_2d_meta.json in Resources */ = {isa = PBXBuildFile; fileRef = 669F83D1DAF3566DAE6D9402 /* letter_net_2d_meta.json */; };
+		63D6E27208F6534C986F2152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D4937183DE531BAF481980 /* Assets.xcassets */; };
+		699D4F5AAB0F55ECBF5972E8 /* OnDeviceRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123E7E85987F537BA08841E9 /* OnDeviceRecognizer.swift */; };
+		813E3F33931954858F7B8613 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E79BF1C783539BB8AFA39A /* SpeechService.swift */; };
+		84B69699293C53EE9644B967 /* MJPEGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004419120FE556CACDF917B /* MJPEGView.swift */; };
+		8DCBE9B92D2C58F28AC4FD13 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA382CD624A506C9F3A7697 /* WriteView.swift */; };
+		A340A43D50FD5C90A4BD742E /* LetterCrop.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = 7C59CAF2BB2E5EA5BB41F1EF /* LetterCrop.mlpackage */; };
+		E8200FB1DAA851E2BC4CE285 /* letter_net_2d.bin in Resources */ = {isa = PBXBuildFile; fileRef = C970722CB99F546DBD175814 /* letter_net_2d.bin */; };
+		EA79002D9429581D961C974F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01824C4C57E5A9084AC6CEE /* API.swift */; };
+		879BFD9830E551A9A9784240 /* hand_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = EDD9FA72D5F15EA0B45AD683 /* hand_landmarker.task */; };
+		46715C4242BA5DDA853FE8A0 /* letter_net_3d.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2C5D4AA6C1295D979BAA5260 /* letter_net_3d.bin */; };
+		C41E2557FCDE5AEF971C1F03 /* letter_net_3d_meta.json in Resources */ = {isa = PBXBuildFile; fileRef = AFEBF95BBBF15E429C37D19C /* letter_net_3d_meta.json */; };
+		AC01C0DEC0DEC0DEC0DE01 /* SignVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02C0DEC0DEC0DEC0DE02 /* SignVideoView.swift */; };
+		AD01C0DEC0DEC0DEC0DE01 /* LetterPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02C0DEC0DEC0DEC0DE02 /* LetterPhotos.swift */; };
+		AE01C0DEC0DEC0DEC0DE01 /* word_map.json in Resources */ = {isa = PBXBuildFile; fileRef = AE02C0DEC0DEC0DEC0DE02 /* word_map.json */; };
+		AF01C0DEC0DEC0DEC0DE01 /* ASLGrammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02C0DEC0DEC0DEC0DE02 /* ASLGrammar.swift */; };
+		E6CD96B3F9465DBE8ECC0848 /* OfflineAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9872528EF45D5DB6757FEF /* OfflineAvatar.swift */; };
+		104A3FF5448C5AE89FF07BFF /* OfflineAutocorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096A04CCC8965B80B4B4FB06 /* OfflineAutocorrect.swift */; };
+		AC03C0DEC0DEC0DEC0DE01 /* sign_videos in Resources */ = {isa = PBXBuildFile; fileRef = AC04C0DEC0DEC0DEC0DE02 /* sign_videos */; };
+		AD03C0DEC0DEC0DEC0DE01 /* letter_photos in Resources */ = {isa = PBXBuildFile; fileRef = AD04C0DEC0DEC0DEC0DE02 /* letter_photos */; };
+		AE03C0DEC0DEC0DEC0DE01 /* coach_voice in Resources */ = {isa = PBXBuildFile; fileRef = AE04C0DEC0DEC0DEC0DE02 /* coach_voice */; };
+		9CC8C79690215690BED55967 /* wordfreq_compact.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBB12E7F60355358ADCAC3A /* wordfreq_compact.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22BD13E248BAFA108E537624 /* letter_coach.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = letter_coach.json; sourceTree = "<group>"; };
+		03369533592A0829F31F79C1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		0118FD9F07068E735D240CF5 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		4DE28F1612A95700CFA3012D /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		123E7E85987F537BA08841E9 /* OnDeviceRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceRecognizer.swift; sourceTree = "<group>"; };
+		19BB821B7A54554F9D2FD002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22D4937183DE531BAF481980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24054E4E6C915F03A70CD1E7 /* AvatarPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPlayer.swift; sourceTree = "<group>"; };
+		39D364277EAA53AB8D1E18FF /* SignAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E15F0FE55AF2733C4A514C1 /* Pods-SignAid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignAid.debug.xcconfig"; path = "Target Support Files/Pods-SignAid/Pods-SignAid.debug.xcconfig"; sourceTree = "<group>"; };
+		45E79BF1C783539BB8AFA39A /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		669F83D1DAF3566DAE6D9402 /* letter_net_2d_meta.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = letter_net_2d_meta.json; sourceTree = "<group>"; };
+		6D0379AE961C56E38D7CBB78 /* HandFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandFeatures.swift; sourceTree = "<group>"; };
+		7C59CAF2BB2E5EA5BB41F1EF /* LetterCrop.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = LetterCrop.mlpackage; sourceTree = "<group>"; };
+		8359CC71008A92D8E2322C7D /* Pods-SignAid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignAid.release.xcconfig"; path = "Target Support Files/Pods-SignAid/Pods-SignAid.release.xcconfig"; sourceTree = "<group>"; };
+		89A795B6F38D506298369A84 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
+		B004419120FE556CACDF917B /* MJPEGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJPEGView.swift; sourceTree = "<group>"; };
+		BEA382CD624A506C9F3A7697 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		C86AFE04C65E2394E9A33CBB /* Pods_SignAid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignAid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C970722CB99F546DBD175814 /* letter_net_2d.bin */ = {isa = PBXFileReference; lastKnownFileType = file; path = letter_net_2d.bin; sourceTree = "<group>"; };
+		E01824C4C57E5A9084AC6CEE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E4DF09A9DFB6565590383642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD9FA72D5F15EA0B45AD683 /* hand_landmarker.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hand_landmarker.task"; sourceTree = "<group>"; };
+		2C5D4AA6C1295D979BAA5260 /* letter_net_3d.bin */ = {isa = PBXFileReference; lastKnownFileType = file; path = "letter_net_3d.bin"; sourceTree = "<group>"; };
+		AFEBF95BBBF15E429C37D19C /* letter_net_3d_meta.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "letter_net_3d_meta.json"; sourceTree = "<group>"; };
+		AC02C0DEC0DEC0DEC0DE02 /* SignVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignVideoView.swift"; sourceTree = "<group>"; };
+		AD02C0DEC0DEC0DEC0DE02 /* LetterPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LetterPhotos.swift"; sourceTree = "<group>"; };
+		AE02C0DEC0DEC0DEC0DE02 /* word_map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "word_map.json"; sourceTree = "<group>"; };
+		AF02C0DEC0DEC0DEC0DE02 /* ASLGrammar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASLGrammar.swift"; sourceTree = "<group>"; };
+		FA9872528EF45D5DB6757FEF /* OfflineAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OfflineAvatar.swift"; sourceTree = "<group>"; };
+		096A04CCC8965B80B4B4FB06 /* OfflineAutocorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OfflineAutocorrect.swift"; sourceTree = "<group>"; };
+		AC04C0DEC0DEC0DEC0DE02 /* sign_videos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sign_videos; path = "../sign_videos"; sourceTree = SOURCE_ROOT; };
+		AD04C0DEC0DEC0DEC0DE02 /* letter_photos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = letter_photos; path = "../letter_photos"; sourceTree = SOURCE_ROOT; };
+		AE04C0DEC0DEC0DEC0DE02 /* coach_voice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = coach_voice; path = "../coach_voice"; sourceTree = SOURCE_ROOT; };
+		ACBB12E7F60355358ADCAC3A /* wordfreq_compact.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "wordfreq_compact.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755E48E87E75531DA09CA3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C00AAC942ECDEEAE3D0518 /* Pods_SignAid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032843F559E0C57471AA3A19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C86AFE04C65E2394E9A33CBB /* Pods_SignAid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04945C3BC98C510CB0FDFAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D364277EAA53AB8D1E18FF /* SignAid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D047CB1EEFD58E3945BD325 = {
+			isa = PBXGroup;
+			children = (
+				41C6D446F01F54DAA2FB6EB0 /* SignAid */,
+				04945C3BC98C510CB0FDFAC7 /* Products */,
+				3C1810D4E9BF701B8CB51D95 /* Pods */,
+				032843F559E0C57471AA3A19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1810D4E9BF701B8CB51D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E15F0FE55AF2733C4A514C1 /* Pods-SignAid.debug.xcconfig */,
+				8359CC71008A92D8E2322C7D /* Pods-SignAid.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		41C6D446F01F54DAA2FB6EB0 /* SignAid */ = {
+			isa = PBXGroup;
+			children = (
+				E01824C4C57E5A9084AC6CEE /* API.swift */,
+				096A04CCC8965B80B4B4FB06 /* OfflineAutocorrect.swift */,
+				AC02C0DEC0DEC0DEC0DE02 /* SignVideoView.swift */,
+				AD02C0DEC0DEC0DEC0DE02 /* LetterPhotos.swift */,
+				AE02C0DEC0DEC0DEC0DE02 /* word_map.json */,
+				AF02C0DEC0DEC0DEC0DE02 /* ASLGrammar.swift */,
+				FA9872528EF45D5DB6757FEF /* OfflineAvatar.swift */,
+				6D0379AE961C56E38D7CBB78 /* HandFeatures.swift */,
+				123E7E85987F537BA08841E9 /* OnDeviceRecognizer.swift */,
+				24054E4E6C915F03A70CD1E7 /* AvatarPlayer.swift */,
+				89A795B6F38D506298369A84 /* TranslateView.swift */,
+				22BD13E248BAFA108E537624 /* letter_coach.json */,
+				03369533592A0829F31F79C1 /* AboutView.swift */,
+				0118FD9F07068E735D240CF5 /* IntroView.swift */,
+				4DE28F1612A95700CFA3012D /* PracticeView.swift */,
+				45E79BF1C783539BB8AFA39A /* SpeechService.swift */,
+				19BB821B7A54554F9D2FD002 /* ContentView.swift */,
+				B004419120FE556CACDF917B /* MJPEGView.swift */,
+				BEA382CD624A506C9F3A7697 /* WriteView.swift */,
+				E4DF09A9DFB6565590383642 /* Info.plist */,
+				ACBB12E7F60355358ADCAC3A /* wordfreq_compact.json */,
+				AC04C0DEC0DEC0DEC0DE02 /* sign_videos */,
+				AD04C0DEC0DEC0DEC0DE02 /* letter_photos */,
+				AE04C0DEC0DEC0DEC0DE02 /* coach_voice */,
+				AFEBF95BBBF15E429C37D19C /* letter_net_3d_meta.json */,
+				2C5D4AA6C1295D979BAA5260 /* letter_net_3d.bin */,
+				EDD9FA72D5F15EA0B45AD683 /* hand_landmarker.task */,
+				7C59CAF2BB2E5EA5BB41F1EF /* LetterCrop.mlpackage */,
+				669F83D1DAF3566DAE6D9402 /* letter_net_2d_meta.json */,
+				C970722CB99F546DBD175814 /* letter_net_2d.bin */,
+				22D4937183DE531BAF481980 /* Assets.xcassets */,
+			);
+			path = SignAid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39173B89FEE1598A9E1D8A8A /* SignAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F7FA42FAC45C3CA88C4D3B /* Build configuration list for PBXNativeTarget "SignAid" */;
+			buildPhases = (
+				A8680D8DE93254BB2BB183A6 /* [CP] Check Pods Manifest.lock */,
+				693C17F19EF0527FABF7022C /* Sources */,
+				755E48E87E75531DA09CA3BC /* Frameworks */,
+				0C7AA23B61685742BEFB5F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignAid;
+			productName = SignAid;
+			productReference = 39D364277EAA53AB8D1E18FF /* SignAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF11FCB7D04750A19DB86251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 63BC646C5A4952CF8383E9F3 /* Build configuration list for PBXProject "SignAid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D047CB1EEFD58E3945BD325;
+			productRefGroup = 04945C3BC98C510CB0FDFAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39173B89FEE1598A9E1D8A8A /* SignAid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C7AA23B61685742BEFB5F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D6E27208F6534C986F2152 /* Assets.xcassets in Resources */,
+				9CC8C79690215690BED55967 /* wordfreq_compact.json in Resources */,
+				AC03C0DEC0DEC0DEC0DE01 /* sign_videos in Resources */,
+				AE01C0DEC0DEC0DEC0DE01 /* word_map.json in Resources */,
+				AD03C0DEC0DEC0DEC0DE01 /* letter_photos in Resources */,
+				AE03C0DEC0DEC0DEC0DE01 /* coach_voice in Resources */,
+				D984CA493AA4E53F456C5B83 /* letter_coach.json in Resources */,
+				C41E2557FCDE5AEF971C1F03 /* letter_net_3d_meta.json in Resources */,
+				46715C4242BA5DDA853FE8A0 /* letter_net_3d.bin in Resources */,
+				879BFD9830E551A9A9784240 /* hand_landmarker.task in Resources */,
+				A340A43D50FD5C90A4BD742E /* LetterCrop.mlpackage in Resources */,
+				5F8D13DD2DD751E282ACCD53 /* letter_net_2d_meta.json in Resources */,
+				E8200FB1DAA851E2BC4CE285 /* letter_net_2d.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8680D8DE93254BB2BB183A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignAid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693C17F19EF0527FABF7022C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA79002D9429581D961C974F /* API.swift in Sources */,
+				104A3FF5448C5AE89FF07BFF /* OfflineAutocorrect.swift in Sources */,
+				AC01C0DEC0DEC0DEC0DE01 /* SignVideoView.swift in Sources */,
+				AD01C0DEC0DEC0DEC0DE01 /* LetterPhotos.swift in Sources */,
+				AF01C0DEC0DEC0DEC0DE01 /* ASLGrammar.swift in Sources */,
+				E6CD96B3F9465DBE8ECC0848 /* OfflineAvatar.swift in Sources */,
+				038F2792B461574FABB5798B /* HandFeatures.swift in Sources */,
+				699D4F5AAB0F55ECBF5972E8 /* OnDeviceRecognizer.swift in Sources */,
+				43ECCD6AFDF259DDB2BF8BA1 /* AvatarPlayer.swift in Sources */,
+				4B39ABDC4A0D5FBA9D6ECCC3 /* TranslateView.swift in Sources */,
+				1DDA587E33414C0AF650369C /* AboutView.swift in Sources */,
+				2C52505CC6F0D3801FB7C45C /* IntroView.swift in Sources */,
+				FE89719A046337F47C1FFA43 /* PracticeView.swift in Sources */,
+				813E3F33931954858F7B8613 /* SpeechService.swift in Sources */,
+				4B8AE2A546E257A197DD1A3A /* ContentView.swift in Sources */,
+				84B69699293C53EE9644B967 /* MJPEGView.swift in Sources */,
+				8DCBE9B92D2C58F28AC4FD13 /* WriteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		490BD33750595294B7AC998E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5CE4B71E216518794211227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B97686385DB357B3A072AB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8359CC71008A92D8E2322C7D /* Pods-SignAid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JNZDRTABF8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SignAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vihaan.signaid;
+				PRODUCT_NAME = SignAid;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC65B045D74C5801A393860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E15F0FE55AF2733C4A514C1 /* Pods-SignAid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JNZDRTABF8;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SignAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vihaan.signaid;
+				PRODUCT_NAME = SignAid;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F7FA42FAC45C3CA88C4D3B /* Build configuration list for PBXNativeTarget "SignAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC65B045D74C5801A393860B /* Debug */,
+				B97686385DB357B3A072AB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		63BC646C5A4952CF8383E9F3 /* Build configuration list for PBXProject "SignAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490BD33750595294B7AC998E /* Debug */,
+				B5CE4B71E216518794211227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF11FCB7D04750A19DB86251 /* Project object */;
+}
